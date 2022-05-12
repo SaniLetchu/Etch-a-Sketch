@@ -1,4 +1,8 @@
-
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .gamecube {
     border: 1px;
@@ -7,9 +11,28 @@
     background-color: white;
     
 }
+.content {
+    flex: 1;
+}
+
+.buttons {
+    padding: 20px 0;
+}
+
+h1, p, button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 20px;
+    font-size: 22px;
+}
 
 #gamecontainer {
     display: grid;
     width: 1000px;
     height: 750px;
+    flex-shrink: 0;
 }
