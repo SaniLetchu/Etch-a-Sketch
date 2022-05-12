@@ -1,0 +1,16 @@
+
+
+.gamecube {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#gamecontainer {
+    display: grid;
+
+    background-color: #2196F3;
+    width: 1000px;
+    height: 750px;
+}
